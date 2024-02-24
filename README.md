@@ -7,10 +7,8 @@ This README provides instructions on how to test the API Users Spring Boot appli
 1. [Introduction](#introduction)
 2. [Prerequisites](#prerequisites)
 3. [Setup](#setup)
-4. [Testing](#testing)
+4. [Testing the API](#testing-the-api)
 5. [Swagger Documentation](#swagger-documentation)
-6. [Authentication](#authentication)
-7. [Contact](#contact)
 
 ## Introduction
 
@@ -60,9 +58,20 @@ Before you begin testing the application, ensure you have the following installe
   When you are in the swagger interface, remember to do the following steps to configure the JWT token for the creation of a user.
 
   1. Click on the authorize button as shown in the image.
+  <div align="center">
+    <a href="./">
+        <img src="./figures/swagger 1.png" width="79%"/>
+    </a>
+  </div>
+  
+  2. Paste the JWT token in the Value field, and click the authorize button. Ready, the JWT token is configured when the user creation endpoint is executed.
+  <div align="center">
+    <a href="./">
+        <img src="./figures/swagger 2.png" width="79%"/>
+    </a>
+  </div>
 
-     
-  3. Paste the JWT token in the Value field, and click the authorize button. Ready, the JWT token is configured when the user creation endpoint is executed
+  
   ### Create user
   To create a user you must keep in mind:
   1. name field, cannot be null or blank
