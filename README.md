@@ -14,8 +14,7 @@ This README provides instructions on how to test the API Users Spring Boot appli
 
 ## Introduction
 
-API Users is a Spring Boot application that This Spring Boot project implements user CRUD,
-you can create, list and delete users. Persistence is done through an H2 database and has Swagger
+This Spring Boot project implements API Users CRUD, you can create, list and delete users. Persistence is done through an H2 database and has Swagger
 documentation implemented for easy API exploration and testing.
 
 ## Prerequisites
@@ -53,7 +52,7 @@ Before you begin testing the application, ensure you have the following installe
     mvn spring-boot:run
     ```
 
-## Testing The API
+## Testing the API
   After running the application, to test the API you can go to the Swagger documentation at the link http://localhost:8080/swagger-ui/index.html,
   there you will find the API enpoints and the data required to test each one.
 
