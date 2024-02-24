@@ -89,5 +89,15 @@ Before you begin testing the application, ensure you have the following installe
 ## Swagger Documentation
   The API endpoints are documented using Swagger. After running the application, you can access the Swagger UI at: http://localhost:8080/swagger-ui/index.html
 
+## API Diagram
+  In the diagram you can see the flow of data in the API and how the main layers of the Spring project interact. Also, you can see the request and response
+  Json objects.
+
+  <div align="center">
+    <a href="./">
+        <img src="./figures/REST API Diagram.png" width="110%"/>
+    </a>
+  </div>
+
 
 
