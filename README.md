@@ -9,6 +9,7 @@ This README provides instructions on how to test the API Users Spring Boot appli
 3. [Setup](#setup)
 4. [Testing the API](#testing-the-api)
 5. [Swagger Documentation](#swagger-documentation)
+6. [API Diagram](#api-diagram)
 
 ## Introduction
 
@@ -90,12 +91,12 @@ Before you begin testing the application, ensure you have the following installe
   The API endpoints are documented using Swagger. After running the application, you can access the Swagger UI at: http://localhost:8080/swagger-ui/index.html
 
 ## API Diagram
-  In the diagram you can see the flow of data in the API and how the main layers of the Spring project interact. Also, you can see the request and response
-  Json objects.
+  In the diagram you can see the flow of data in the API and how the main layers of the Spring project interact with each other. Also, you can see the request
+  and response Json objects. This **image(REST API Diagram.png)** is in the **figures folder** of the repository
 
   <div align="center">
     <a href="./">
-        <img src="./figures/REST API Diagram.png" width="110%"/>
+        <img src="./figures/REST API Diagram.png" width="100%" height="100%"/>
     </a>
   </div>
 
